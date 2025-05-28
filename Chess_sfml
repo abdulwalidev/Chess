@@ -564,6 +564,7 @@ int main() {
         window.clear(Color::White);
         drawBoard(window);
         drawMoveDots(window);
+
         drawPieces(window);
         window.display();
     }
